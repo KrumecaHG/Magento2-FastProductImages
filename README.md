@@ -16,7 +16,7 @@ If you have changed to your Magento_Catalog/templates/product/view/gallery.phtml
 # Installation
 ```
 composer config repositories.magento2-fast-product-images git git@github.com:KrumecaHG/magento2-fast-product-images.git
-composer require xumulus/magento2-fast-product-images:dev-master -n
+composer require KrumecaHG/magento2-fast-product-images:dev-master -n
 bin/magento module:enable Xumulus_FastGalleryLoad
 bin/magento setup:upgrade
 bin/magento setup:static-content:deploy
