@@ -1,6 +1,6 @@
 {
-  "name": "xumulus/magento2-fast-product-images",
-  "description": "Load the gallery images faster.",
+  "name": "KrumecaHG/magento2-fast-product-images",
+  "description": "Faster Gallery Images!",
   "require": {
     "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
   },
@@ -23,7 +23,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Xumulus\\FastGalleryLoad\\": ""
+      "KrumecaHG\\FastGalleryLoad\\": ""
     }
   }
 }
