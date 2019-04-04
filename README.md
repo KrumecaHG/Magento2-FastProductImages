@@ -19,6 +19,7 @@ composer config --global github-oauth.github.com fe7cd80dc4343bee4cb2681f87eb880
 
 composer config repositories.magento2-fast-product-images git git@github.com:KrumecaHG/magento2-fast-product-images.git
 composer require KrumecaHG/magento2-fast-product-images:dev-master -n
+
 bin/magento module:enable Xumulus_FastGalleryLoad
 bin/magento setup:upgrade
 bin/magento setup:static-content:deploy
